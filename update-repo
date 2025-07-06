@@ -29,7 +29,6 @@ cp kawaii-testing.files.tar.gz.sig kawaii-testing.files.sig
 cp kawaii-testing.db.tar.gz.sig kawaii-testing.db.sig
 
 git add --all
-echo -n "Enter comment: "
-read COMMENT
+COMMENT=a
 git commit -m "$COMMENT"
 git push
